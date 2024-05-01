@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block page_title %}
+{% if todo.pk %}
+        Editar Tarefa
+    {% else %}
+        Criar tarefa
+    {% endif %}
+{% endblock page_title %}
+{% block content %}
+    {% if todo.pk %}
+        <h1>Editar Tarefa</h1>
+    {% else %}
+        <h1>Criar tarefa</h1>
+    {% endif %}
+    <form method="POST">
+        {% csrf_token %}
+
+        {{form|crispy}}
+
+    {% if todo.pk %}
+        <button type="submit" class="btn btn-primary">Salvar Tarefa</button>
+    {% else %}
+        <button type="submit" class="btn btn-primary">Criar Tarefa</button>
+    {% endif %}
+    </form>           
+{% endblock content %}
