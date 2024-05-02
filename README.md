@@ -17,48 +17,48 @@ Este é um projeto simples de uma lista de tarefas desenvolvido utilizando o fra
 
 ## Instalação
 
-# Clone o repositório
+## Clone o repositório
 ```bash
 git clone https://github.com/devgustavoalves/to-do-list.git
 ```
 
-# Navegue até o diretório do projeto
+## Navegue até o diretório do projeto
 ```bash
 cd nome-do-repositorio
 ```
 
-# Crie um ambiente virtual (opcional, mas recomendado)
+## Crie um ambiente virtual (opcional, mas recomendado)
 ```bash
 python -m venv venv
 ```
 
-# Ative o ambiente virtual (se estiver usando um)
-# No Windows
+## Ative o ambiente virtual (se estiver usando um)
+### No Windows
 ```bash
 venv\Scripts\activate
 ```
 
-# No macOS e Linux
+### No macOS e Linux
 
 ```bash
 source venv/bin/activate
 ```
-# Instale as dependências do projeto
+## Instale as dependências do projeto
 ```bash
 pip install -r requirements.txt
 ```
 
-# Execute as migrações do banco de dados
+## Execute as migrações do banco de dados
 ```bash
 python manage.py migrate
 ```
 
-# Inicie o servidor de desenvolvimento
+## Inicie o servidor de desenvolvimento
 ```bash
 python manage.py runserver
 ```
 
-# Acesse o projeto no seu navegador em `http://localhost:8000/`.
+## Acesse o projeto no seu navegador em `http://localhost:8000/`.
 
 ## Contribuindo
 
