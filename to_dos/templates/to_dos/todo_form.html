@@ -9,9 +9,9 @@
 {% endblock page_title %}
 {% block content %}
     {% if todo.pk %}
-        <h1>Editar Tarefa</h1>
+        <h2>Editar Tarefa</h2>
     {% else %}
-        <h1>Criar tarefa</h1>
+        <h2>Criar tarefa</h2>
     {% endif %}
     <form method="POST">
         {% csrf_token %}
