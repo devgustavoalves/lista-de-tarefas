@@ -58,7 +58,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-## Acesse o projeto no seu navegador em `http://localhost:8000/`.
+### Acesse o projeto no seu navegador em `http://localhost:8000/`.
 
 ## Contribuindo
 
